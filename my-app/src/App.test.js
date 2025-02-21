@@ -10,5 +10,5 @@ test('renders learn react link', () => {
 test('url is correct', () => {
     render(<App />);
     const linkElement = screen.getByTestId('learn-link');
-    expect(linkElement.href).toContain('ultimateqa.com')
+    expect(linkElement.href).toContain('ultimateqa.com');
 });
