@@ -1,7 +1,6 @@
 {
-  "name": "react_app",
+  "name": "react_web_app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "create-react-app": "^1.5.2"
+    "create-react-app": "^5.1.0"
   }
 }
