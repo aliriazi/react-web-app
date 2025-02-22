@@ -34,6 +34,8 @@ jobs:
       run: |
         cd react-web-app
         npm run build
+    - name: Debug Package Scripts
+        run: cat package.json
     - name: Run component tests 🔸
       run: |
         cd react-web-app
